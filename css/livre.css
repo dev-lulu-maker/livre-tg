@@ -1,0 +1,31 @@
+.hero-bg {
+    background-image: url('../media/images/logoEcriture.webp');
+    /* remplace par ton image */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.page-bg {
+    /* background-image: url('../media/images/chemin_man.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+    width: 20px;
+    /* height: 20vh; */
+}
+
+.bg-color {
+    background-image: linear-gradient(to right, #FAD182, #927541);
+    /* background-color: #F4B400; */
+}
+
+.custom-img {
+    opacity: 0.1;
+}
+
+/* :root{
+    --bs-navbar-height: 60%;
+} */
