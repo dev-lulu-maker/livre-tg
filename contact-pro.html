@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .social-icons a {
+      margin: 0 10px;
+      color: #333;
+      font-size: 1.5rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+    }
+    body{
+        padding-top: 56px;
+    }
+    .custom-bg-color {
+  background-image: linear-gradient(to right, #FAD182, #cb561c);
+}
+  </style>
+</head>
+<body>
+ <!-- Navbar -->
+ <nav id="navbar-example2" class="navbar navbar-expand-lg  shadow-sm custom-bg-color fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+            <img src="media/images/logo-s.jpg" alt="logo" width="30" height="24">
+            Le chemin du succès
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+
+                <li class="nav-item dropdown">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Chapitres
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-light">
+                        <li><a class="dropdown-item" href="pages/livre.html?#c0">Préface
+                            </a>
+                        </li>
+                        <li><a class="dropdown-item" href="pages/livre.html?#c">Introduction Je suis perdu
+                            </a>
+                        </li>
+                        <li><a class="dropdown-item" href="pages/livre.html?#c1">Chapitre 1 Mieux se connaître
+                            </a></li>
+                        <li><a class="dropdown-item" href="pages/livre.html?#c2">Chapitre 2 Orientation
+                            </a></li>
+                        <li><a class="dropdown-item" href="pages/livre.html?#c3">Chapitre 3 Orientation
+                            </a></li>
+                        <li><a class="dropdown-item" href="pages/livre.html?#c4">Chapitre 4 Orientation
+                            </a></li>
+                        <li><a class="dropdown-item" href="pages/livre.html?#c5">Conclusion Action
+                            </a></li>
+                    </ul>
+                </li>
+                <!-- <a class="nav-link" href="#chapitres">Chapitres</a> -->
+
+                <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">À propos</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <!-- Header -->
+  <header class="bg-dark text-white text-center py-5">
+    <h1>Contactez-nous</h1>
+    <p class="lead">Nous sommes là pour vous accompagner</p>
+  </header>
+
+  <!-- Section de contact -->
+  <section class="container my-5">
+    <div class="row g-5">
+      <!-- Formulaire -->
+      <div class="col-md-6">
+        <h3>Envoyer un message</h3>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="name" placeholder="Votre nom">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Adresse e-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Votre e-mail">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Votre message..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-secondary">Envoyer</button>
+        </form>
+
+        <!-- Réseaux sociaux -->
+        <div class="mt-4">
+          <h5>Suivez-nous</h5>
+          <div class="social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte Google Maps -->
+      <div class="col-md-6">
+        <h3>Notre adresse</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9992391240243!2d2.292292315674979!3d48.858373079287236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fefc6c9b5f1%3A0xbba2cb29c8bcfb0b!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1680010034987" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center text-muted py-4">
+    <p>&copy; 2025 - Le chemin du succès</p>
+  </footer>
+
+  <!-- Bootstrap JS + Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>

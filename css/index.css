@@ -118,7 +118,7 @@ a {
 }
 
 .hero-bg {
-  background-image: url('media/images/logo_chemin.png');
+  background-image: url('../media/images/logo_chemin.png');
   /* remplace par ton image */
   background-size: contain;
   background-position: center;
